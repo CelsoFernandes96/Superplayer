@@ -1,0 +1,36 @@
+Criação e exclusão de Projetos
+
+- Criar um projeto (Apenas o nome) - (Backend) - ok
+- Posteriormente add tarefas - (Frontend) - ok
+- Excluir um projeto, Quando você exclui um projeto, todas as tarefas pertencentes ao projeto são excluídas com ele. - (Backend) - ok
+Obs: Seria bom pedir ao usuário para confirmar a exclusão do projeto, pois não há como voltar atrás. - (Frontend) - ok
+
+Listando tarefas de um projeto
+ - Quando você visualiza um projeto, ele mostra sua lista de tarefas. - (Frontend) - ok
+ - A lista de tarefas está sempre em ordem crescente por sua data de vencimento - (Backend) - ok
+ Obs: Ou seja, tarefas atrasadas e tarefas com data de vencimento mais próxima da data atual vêm primeiro.
+
+ Adicionando tarefas
+ - Uma tarefa tem uma descrição, um proprietário e uma data de vencimento. - (Frontend) -  ok
+ - A descrição da tarefa é um texto que diz qual é o objetivo da tarefa ou qualquer coisa. - (Backend) - ok
+ - A data de vencimento da tarefa é a data de conclusão da tarefa planejada. - (Backend) - ok
+ - E o proprietário é simplesmente o nome do proprietário da tarefa. - (Backend) - ok
+ Obs: Você não precisa criar um registro de proprietário para vincular tarefas e proprietários, 
+ um proprietário de tarefa pode ser apenas uma string simples com o nome do proprietário. - (Backend) - ok
+
+ Status de tarefas
+ - Uma tarefa tem outra propriedade, seu status. Pode ser a tempo , atrasado ou concluído. - (Frontend) - ok
+ - Uma tarefa está a tempo em que não foi concluída e não atingiu sua data de vencimento. - (Frontend) - ok
+ - Uma tarefa atrasada é uma tarefa que não foi concluída e está com data de vencimento desatualizada. - (Frontend) - ok
+ - E uma tarefa é concluída apenas quando o usuário a marca como uma tarefa concluída - (Backend) - ok
+ (deve ser a única maneira pela qual uma tarefa se transforma em uma tarefa concluída).
+
+1 - No topo da página, há o nome do projeto, um "status do projeto" e um link para deletar o projeto. - ok
+2 - O "status do projeto" é uma contagem das tarefas concluídas do projeto / tarefas atrasadas do projeto / tarefas totais do projeto. No exemplo acima, o projeto tem uma tarefa concluída e uma tarefa atrasada de um total de cinco: 1/1/5 . - ok
+3 - Cada tarefa é representada em uma única linha com uma caixa de seleção, uma descrição, seu proprietário e sua data de vencimento, nesta ordem. - ok
+4 - Quando a caixa de seleção de uma tarefa é marcada, ela é marcada como concluída. - ok
+5 - As tarefas concluídas são tachadas e têm uma cor diferente (tente “#ccc”) das outras. - ok
+6 - O nome do proprietário da tarefa é precedido por um "@" para melhor identificá-lo. - ok
+7 - A data de vencimento da tarefa é a última informação na linha de tarefa. No exemplo acima, é uma data relativa. Usar datas relativas não é um requisito, mas é muito melhor. Tente ;) - ok
+8 - As tarefas atrasadas são coloridas em vermelho. Dessa forma é fácil verificar quando uma tarefa está atrasada ou não. - ok
+9 - Após a lista de tarefas, há um link para adicionar uma nova tarefa ao projeto. - ok
