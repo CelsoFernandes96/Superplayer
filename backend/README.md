@@ -29,7 +29,7 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 
 ```bash
 # Clone this repository
-$ git clone <your repository>
+$ git clone <https://github.com/CelsoFernandes96/Superplayer/tree/master/backend>
 
 # Access the project folder in the / cmd terminal
 $ cd <project_name>
@@ -43,4 +43,4 @@ $ npm install
 # Run the application in development mode
 $ npm run dev:server
 
-# The server will start porta:3333 - acesse <http://localhost:3003>
+# The server will start porta:3003 - acesse <http://localhost:3003>
