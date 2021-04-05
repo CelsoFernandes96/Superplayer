@@ -27,6 +27,8 @@ This is an application made with Node.js technology, with the purpose of creatin
 Before you begin, you will need to have the following tools installed on your machine:
 [Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
 In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+You need to install the nodemon package, for your application to run in a dev environment
+[Nodemon](https://www.npmjs.com/package/nodemon)
 
 ### 🎲 Back End (server)
 
@@ -44,6 +46,6 @@ $ cd <project_name>
 $ npm install
 
 # Run the application in development mode
-$ npm run dev:server
+$ npm run dev
 
 # The server will start porta:3003 - acesse <http://localhost:3003>
