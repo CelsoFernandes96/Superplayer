@@ -3,7 +3,7 @@
 ## Summary
 
 <p>
-Este é um aplicativo feito com a tecnologia React, com o objetivo de criar um painel de gerenciamento de projeto.
+This is an application made with React technology, with the objective of creating a project management panel.
 </p>
 
 ## Documentation
